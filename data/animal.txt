@@ -4,3 +4,8 @@ Werewolf
 Rabbit
 Gremlin
 Mindflayer
+Newt
+Phoenix
+Unicorn
+Hedgehog
+Boggart

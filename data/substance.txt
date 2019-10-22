@@ -2,3 +2,5 @@ Moondew
 Sundew
 Honeydew
 Frostdew
+Oil
+Ectoplasm

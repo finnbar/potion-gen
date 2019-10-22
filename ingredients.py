@@ -18,13 +18,15 @@ ReducedMineral = SentenceGenerator([Processing, Mineral])
 SubstanceDew = SentenceGenerator(["A drop of", Substance])
 
 # (Blood | Spit | ...) of Animal
-AnimalBit = WordPick(["Blood", "Spit", "Bone"])
+AnimalBit = WordPick(["Blood", "Spit", "Bone", "Eye", "Heart"])
 AnimalPart = SentenceGenerator([AnimalBit, "of", Animal])
 
 # Latin name of plant
-LatinPlant = SentenceGenerator([Plant])
+PlantPart = WordPick(["A sprig of", "Ground"])
+LatinPlant = SentenceGenerator([PlantPart, Plant])
 
 # Various common ingredients, such as basic berries or herbs
-CommonIngredient = SentenceGenerator([Common])
+Qualifiers = WordPick(["Magic", "Golden", "Giant", "Angry"])
+CommonIngredient = SentenceGenerator([Qualifiers, Common])
 
 ingredients = [ReducedMineral, SubstanceDew, AnimalPart, LatinPlant, CommonIngredient]

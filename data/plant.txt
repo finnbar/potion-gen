@@ -1,10 +1,10 @@
 Lavandula
-Rubus occidentalis
-Rosmarinus officinalis
-Crocus sativus
-Helianthus annuus
-Cirsium arvense
+Rubus Occidentalis
+Rosmarinus Officinalis
+Crocus Sativus
+Helianthus Annuus
+Cirsium Arvense
 Tulipa
 Saintpaulia
 Trifolium
-Bellis perennis
+Bellis Perennis
